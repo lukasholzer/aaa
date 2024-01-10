@@ -1,6 +1,3 @@
 [build]
 command = "pnpm --filter @evilcorp/website... run build"
 publish = "packages/nextjs-website/.next"
-
-[[plugins]]
-package = "@netlify/plugin-nextjs"
